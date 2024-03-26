@@ -1,0 +1,22 @@
+{
+  "nodeModulesDir": true,
+  "tasks": {
+    "dev": "deno run -A npm:vite",
+    "build": "deno run -A npm:vite build",
+    "preview": "deno run -A npm:vite preview",
+    "serve": "deno run -A jsr:@std/http@^0.220.0/file_server dist/"
+  },
+  "fmt": {
+    "semiColons": false
+  },
+  "imports": {
+    "solid-js": "npm:solid-js@^1.8.16",
+    "vite": "npm:vite@^5.2.6",
+    "vite-plugin-solid": "npm:vite-plugin-solid@^2.10.2"
+  },
+  "compilerOptions": {
+    "lib": ["DOM", "DOM.Iterable"],
+    "jsx": "react-jsx",
+    "jsxImportSource": "npm:solid-js@^1.8.16"
+  }
+}
