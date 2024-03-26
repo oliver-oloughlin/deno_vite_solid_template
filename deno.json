@@ -6,9 +6,6 @@
     "preview": "deno run -A npm:vite preview",
     "serve": "deno run -A jsr:@std/http@^0.220.0/file_server dist/"
   },
-  "fmt": {
-    "semiColons": false
-  },
   "imports": {
     "solid-js": "npm:solid-js@^1.8.16",
     "vite": "npm:vite@^5.2.6",
